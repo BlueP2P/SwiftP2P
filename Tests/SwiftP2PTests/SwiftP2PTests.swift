@@ -6,7 +6,6 @@ final class SwiftP2PTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SwiftP2P().text, "Hello, World!")
     }
 
     static var allTests = [
