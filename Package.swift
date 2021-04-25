@@ -25,7 +25,7 @@ let package = Package(
         .target(
             name: "SwiftP2P",
             dependencies: ["BlueP2PKit"]),
-        .binaryTarget(name: "BlueP2PKit", url: "https://raw.githubusercontent.com/BlueP2P/prebuilt/main/bluep2pkit/0.0.1-r13/BlueP2PKit.xcframework.zip", checksum: "1c13e0f9f0615f230c182dd594147d073229f3a74a17325cb6a0ff3ae4f34055"),
+        .binaryTarget(name: "BlueP2PKit", url: "https://raw.githubusercontent.com/BlueP2P/prebuilt/main/bluep2pkit/0.0.1-r14/BlueP2PKit.xcframework.zip", checksum: "ce4065d983bd9c53aeb7c951222979595ec69f400ef43feb363abb7144064431"),
         .testTarget(
             name: "SwiftP2PTests",
             dependencies: ["SwiftP2P"]),
